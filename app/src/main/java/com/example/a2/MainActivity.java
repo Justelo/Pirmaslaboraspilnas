@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         changeColorButton = (Button)findViewById(R.id.bChangeColor);
         changeColorButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,12 +28,13 @@ public class MainActivity extends AppCompatActivity {
                 message.setTextColor(Color.BLUE);
             }
         });
+
         message = (TextView)findViewById(R.id.tvMessage);
         changeTextButton = (Button)findViewById(R.id.bChangeText);
         changeTextButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                message.setText("Antras tekstas");
+                message.setText("Antras");
             }
         });
     }
