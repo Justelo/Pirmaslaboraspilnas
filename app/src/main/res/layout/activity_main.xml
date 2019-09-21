@@ -30,8 +30,8 @@
 
     <Button
         android:id="@+id/bChangeText"
-        android:layout_width="109dp"
-        android:layout_height="93dp"
+        android:layout_width="108dp"
+        android:layout_height="132dp"
         android:layout_marginTop="149dp"
         android:layout_marginBottom="534dp"
         android:text="Change text"
