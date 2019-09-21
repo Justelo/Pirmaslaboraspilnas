@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         changeTextButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                message.setText("Antras");
+                message.setText("Antras tekstas");
             }
         });
     }
