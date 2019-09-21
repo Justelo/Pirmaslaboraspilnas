@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="288dp"
         android:layout_marginBottom="424dp"
-        android:text="Pirmas"
+        android:text="First text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
